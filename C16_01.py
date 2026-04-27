@@ -1,0 +1,11 @@
+fEpa = open("Epargne.txt")
+print(type(fEpa))
+cDon=fEpa.read()
+print(type(cDon))
+print(cDon)
+epa=cDon.split()
+print(type(epa))
+print(epa)
+print(epa[1])
+print(type(epa[1]))
+
